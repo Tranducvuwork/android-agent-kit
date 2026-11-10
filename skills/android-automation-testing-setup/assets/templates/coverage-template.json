@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "project": {
+    "root": "<absolute-project-root>",
+    "application_id": "<discovered-application-id>",
+    "module": "<discovered-module>",
+    "variant": "<selected-variant>",
+    "source_ref": "<commit-or-source-hash>",
+    "branch": "<branch-or-no-git>",
+    "skill_ref": "<installed-skill-version-or-hash>"
+  },
+  "run": {"id": "<run-id>", "mode": "TEST", "started_at": "<ISO-8601-with-timezone>", "ended_at": null},
+  "executions": [],
+  "scope": {
+    "kind": "full_app",
+    "description": "<user-scope-and-selected-variant>",
+    "discovery_complete": false,
+    "discovery_sources": [],
+    "exclusions": []
+  },
+  "packages": [],
+  "workflows": [],
+  "obligations": [],
+  "cases": [],
+  "production_guard": {
+    "before": "test-evidence/inputs/production-before.json",
+    "after": "test-evidence/inputs/production-after.json",
+    "unchanged": false
+  },
+  "test_config_changes": []
+}

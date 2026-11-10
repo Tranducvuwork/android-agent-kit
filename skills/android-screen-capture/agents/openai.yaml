@@ -1,0 +1,13 @@
+interface:
+  display_name: "Android Screen Capture"
+  short_description: "Capture live app screens (PNG + view hierarchy) into docs/features/<feature>/screens/"
+  default_prompt: "Use $android-screen-capture to capture the screens I open on the device and write screens.md for feature <slug>."
+
+policy:
+  allow_implicit_invocation: true
+
+# Trigger examples (for implicit invocation matching):
+# - "I'll open the screen, capture it"
+# - "chụp màn hình app đưa vào tài liệu"
+# - "document the current UI of this feature"
+# - "screenshot the app and write the screen spec"

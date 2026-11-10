@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+# installer output, when a project is installed in place
+.agent-skills/

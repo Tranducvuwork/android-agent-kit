@@ -1,0 +1,12 @@
+interface:
+  display_name: "Android Feature Flow"
+  short_description: "Capture → spec → plan → implement → review → test → policy audit, end to end"
+  default_prompt: "Use $android-feature-flow to take this feature from screen capture to tested code."
+
+policy:
+  allow_implicit_invocation: false
+
+# Trigger examples (for explicit invocation):
+# - "take this feature from idea to tested code"
+# - "làm feature này từ a đến z"
+# - "capture the screen, plan it, implement it and test it"

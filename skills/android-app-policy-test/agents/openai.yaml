@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android App Policy Test"
+  short_description: "Kiểm tra source Android và retest theo checklist, Google Play."
+  default_prompt: "Dùng $android-app-policy-test để kiểm tra hoặc retest source Android theo dev checklist và Google Play policy."
+
+policy:
+  allow_implicit_invocation: false

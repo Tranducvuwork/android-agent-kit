@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android Automation Testing Setup"
+  short_description: "Cover app workflows with grouped tests and failure evidence."
+  default_prompt: "Dùng $android-automation-testing-setup để TEST toàn bộ workflow Android XML/Views hoặc RETEST baseline, nhóm testcase theo package/workflow, dùng collector và coverage v2 để đối chiếu raw runner evidence/live production guard, thu screenshot lỗi khi có thể; chỉ viết automation/cấu hình test tối thiểu, giữ nguyên production."
+
+policy:
+  allow_implicit_invocation: false
