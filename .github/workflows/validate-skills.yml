@@ -22,6 +22,12 @@ jobs:
       - name: Packaged docs match their sources
         run: python3 -I scripts/prepare-skill.py --check
 
+      - name: Install pytest
+        run: python3 -m pip install --quiet pytest
+
+      - name: Coverage, evidence and packaging tests
+        run: python3 -m pytest tests -q
+
       - name: Installer dry run against a scratch project
         run: |
           mkdir -p /tmp/scratch-project

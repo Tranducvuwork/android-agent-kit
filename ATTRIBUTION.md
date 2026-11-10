@@ -33,7 +33,7 @@ Lấy từ file `qa_dev_test-main.zip` do chủ dự án cung cấp.
 - `skills/android-app-policy-test/`
 - `skills/android-automation-testing-setup/`
 - `docs/dev-checklist.md`, `docs/testing-setup/`
-- `scripts/prepare-skill.py`
+- `scripts/prepare-skill.py`, `tests/`
 
 Thay đổi tại chỗ: thêm khối `policy.allow_implicit_invocation: false` vào
 `skills/android-automation-testing-setup/agents/openai.yaml` (bản gốc thiếu khối này, trong khi skill

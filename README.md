@@ -187,6 +187,10 @@ python3 -I scripts/validate-skills.py
 # đồng bộ docs/ nguồn vào package skill (checklist, tài liệu testing-setup)
 python3 -I scripts/prepare-skill.py
 python3 -I scripts/prepare-skill.py --check   # CI: fail nếu lệch
+
+# test cho coverage validator, runner evidence và khâu đóng gói
+python3 -m pip install pytest
+python3 -m pytest tests -q
 ```
 
 `docs/dev-checklist.md` và `docs/testing-setup/` là **nguồn**; bản trong `skills/*/references/` do
