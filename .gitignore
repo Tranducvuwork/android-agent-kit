@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 # installer output, when a project is installed in place
 .agent-skills/
+.pytest_cache/
